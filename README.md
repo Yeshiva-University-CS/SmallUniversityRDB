@@ -14,7 +14,8 @@ The authors write:
 ## Contents
 
 * `smallDDL.sql`: invoke this script when creating the database tables for the first time
-* `smallDDLAndDrop.sql`: invoke this script use this if you wish to recreate the database after dropping existing tables.
+* `smallDDLAndDrop.sql`: invoke this script if you wish to recreate the database after dropping existing tables.
+* `populateSmallTables.sql`: invoke this script to populate the database tables with a "small" amount of data (corresponding to the Figures in Appendix A of the textbook).
 * `DatabaseSystemConcepts_AppendixA.pdf`: The authors present the full details of the university database.  The material includes an E-R diagram, the SQL DDL (with commentary!), and Figures that illustrate the contents of the database tables for the "small-scale" sample data.
 * `PostgreSQL-Cheat-Sheet.pdf`: [Source](http://www.postgresqltutorial.com/postgresql-cheat-sheet/)
 * `PSQLQuickRef.pdf`: [Source](https://gpdb.docs.pivotal.io/gs/43/pdf/PSQLQuickRef.pdf)
